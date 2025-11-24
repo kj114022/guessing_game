@@ -1,1 +1,46 @@
-/target
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.sublime-project
+.sublime-workspace
+.vim/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS specific
+Thumbs.db
+*.tmp
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.o
+*.so
+*.dylib
+
+# Test coverage
+*.profraw
+*.profdata
+/coverage/
+
+# Dependency directories
+vendor/
+
+# Generated files
+*.log
+core
